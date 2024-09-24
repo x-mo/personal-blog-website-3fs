@@ -51,6 +51,14 @@ body {
 }
 
 .footer {
+    display: flex;
     background-color: blue;
     grid-area: footer;
+    justify-content: center;
+    align-items: center;
+}
+
+#copyright {
+   color: white;
+   font-size: 12px;
 }
