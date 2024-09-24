@@ -62,3 +62,12 @@ body {
    color: white;
    font-size: 12px;
 }
+
+.post-card{
+    background-color: white;
+}
+
+.post-image {
+    width: 400px;
+    
+}
