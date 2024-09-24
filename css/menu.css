@@ -1,0 +1,29 @@
+.menu-link {
+    text-decoration: none;
+    color: white;
+}
+/* @media(min-width: 600px) {
+    #menu-list {
+        padding: 0 0 0 4px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: stretch;
+        list-style: none;
+        justify-self: center;
+        background-color: aqua;
+    }    
+} */
+
+#menu-list {
+    padding: 0 0 0 4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 30px;
+}
+
+.menu-item {
+    
+}

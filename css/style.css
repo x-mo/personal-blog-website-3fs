@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 @import url(social-icons.css);
+@import url(menu.css);
 html {
     font-family: "Ubuntu", sans-serif;
 }
@@ -10,7 +11,7 @@ body {
 
 .container {
     display: grid;
-    grid-template-rows: 180px 40px 1fr 60px;
+    grid-template-rows: 180px auto 1fr 60px;
     grid-template-columns: 1fr;
     grid-template-areas:
         "header"
