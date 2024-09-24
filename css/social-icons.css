@@ -6,3 +6,11 @@
 .social-link {
     text-decoration: none;
 }
+
+#social-list {
+    padding: 0 0 0 4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    list-style: none;
+}
