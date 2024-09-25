@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 @import url(social-icons.css);
 @import url(menu.css);
+@import url(posts-grid.css);
 html {
     font-family: "Ubuntu", sans-serif;
 }
@@ -46,7 +47,7 @@ body {
 }
 
 .main {
-    background-color: green;
+
     grid-area: content;
 }
 
@@ -65,9 +66,4 @@ body {
 
 .post-card{
     background-color: white;
-}
-
-.post-image {
-    width: 400px;
-    
 }

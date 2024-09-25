@@ -1,0 +1,33 @@
+.main {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 24px;
+    margin: 16px;
+}
+
+@media(min-width: 600px) {
+    .main {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.post-card {
+    border-radius: 2px;
+    overflow: hidden;
+    box-shadow: 4px 8px 23px 0px rgba(0,0,0,0.25);
+    text-decoration: none;
+    color: black;
+
+    
+}
+
+.post-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.post-title,
+.post-short-description {
+    margin: 16px;
+}
