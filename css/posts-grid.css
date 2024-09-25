@@ -30,3 +30,9 @@
 .post-short-description {
     margin: 16px;
 }
+
+.read-more {
+    background: none;
+    border: none;
+    cursor: pointer;
+}

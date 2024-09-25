@@ -68,3 +68,9 @@ body {
     color: #e3e3e3;
     font-size: 12px;
 }
+
+.image-caption {
+    font-size: small;
+    font-style: italic;
+    color: darkgray;
+}
